@@ -18,7 +18,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'docker run --rm jenkins-demo'
+                bat 'docker run --rm jenkins-demo'
             }
         }
 
